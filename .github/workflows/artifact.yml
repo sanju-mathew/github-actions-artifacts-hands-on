@@ -32,3 +32,4 @@ download:
 
       - name: Display content of hello.txt
         run: cat ./artifacts/hello.txt
+
