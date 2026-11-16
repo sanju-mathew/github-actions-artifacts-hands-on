@@ -23,10 +23,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download text file
+      - name: Download artifact
         uses: actions/download-artifact@v4
         with:
           path: ./artifacts
 
-      - name: Display content of the text file
+      - name: Display content of hello.txt
         run: cat ./artifacts/hello.txt
