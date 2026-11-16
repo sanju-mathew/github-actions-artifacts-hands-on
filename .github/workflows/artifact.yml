@@ -26,6 +26,7 @@ jobs:
       - name: Download text file
         uses: actions/download-artifact@v4
         with:
+          name: my-artifact
           path: ./artifacts
 
       - name: Display content of the text file
